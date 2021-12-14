@@ -19,7 +19,9 @@
    width:35%;
  }
 
-
+.target li{
+  margin-bottom:20px;
+}
 :root{
   --blue: #007bff;
   --indigo: #6610f2;
