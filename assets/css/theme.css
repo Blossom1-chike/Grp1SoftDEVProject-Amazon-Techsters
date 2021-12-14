@@ -1265,8 +1265,6 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 60%;
-  height: 40%;
   text-align: center;
   overflow: hidden;
 }

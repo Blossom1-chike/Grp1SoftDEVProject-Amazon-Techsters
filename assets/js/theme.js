@@ -47,6 +47,7 @@ $(function() {
   
 });
 
+
 $('document').ready(function() {
   var nav_height = 70;
   
