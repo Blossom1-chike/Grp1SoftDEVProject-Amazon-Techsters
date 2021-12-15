@@ -4,6 +4,24 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .sub-heading{
+   color:#6610f2 !important;
+   font-size: 20px;
+ }
+ .services{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   gap:100px;
+ }
+ .part{
+   width:35%;
+ }
+
+.target li{
+  margin-bottom:20px;
+}
 :root{
   --blue: #007bff;
   --indigo: #6610f2;
