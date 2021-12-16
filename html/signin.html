@@ -38,7 +38,7 @@
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
+                     <input type="submit" value="Login" class="logins">
                   </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
@@ -68,13 +68,19 @@
          const loginBtn = document.querySelector("label.login");
          const signupBtn = document.querySelector("label.signup");
          const signupLink = document.querySelector("form .signup-link a");
+         const login = document.querySelector('.logins')
+
          signupBtn.onclick = (()=>{
            loginForm.style.marginLeft = "-50%";
            loginText.style.marginLeft = "-50%";
          });
+
+
          loginBtn.onclick = (()=>{
            loginForm.style.marginLeft = "0%";
            loginText.style.marginLeft = "0%";
+         //   location.replace("blog.html")
+         //   location.href = "blog.html";
            
 
 
@@ -83,6 +89,11 @@
            signupBtn.click();
            return false;
          });
+
+         login.addEventListener("click", (e) => {
+            e.preventDefault()
+            location.href = "../index.html";
+         })
       </script>
    </body>
 </html>
